@@ -43,7 +43,7 @@ body{
 	height: 800px;
 	background-color: white;
 }
-.ajuste-caja{
+.ajuste-caja-k{
 	padding-top: 45px;
 }
 .koala-dos{
@@ -53,25 +53,21 @@ body{
 .ajuste-caja-found{
 	padding-top: 156px;
 }
-.cajas-dos{
-	padding-right: 100px;
-}
-.cajas-pequenas{
-	padding-top: 15px;
-}
 .cajas-pequenas h4, .ajuste-caja-found h2{
 	color: #A89F68;
 }
 /****THRID SECTION****/
 .thrid-section{
 	background-color: #A89F68;
-	height: 460px;
 }
 .ajuste-caja-easy{
-	padding-left: 150px;
-	padding-top: 60px;
+	padding-left: 20px;
+}
+.ajuste-caja-easy{
+	padding-bottom: 30px;
 }
 .ajuste-caja-easy h4{
+	padding-top: 60px;
 	color: white;
 }
 .ajuste-caja-easy h3{
@@ -82,7 +78,10 @@ body{
 	color: white;
 }
 .ajuste-caja-ftres{
-	padding-top: 70px;
+	padding-top:40px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	margin: auto
 }
 .koala-tres{
 	border: 3px solid white;
@@ -96,17 +95,18 @@ body{
     background-repeat: no-repeat;
     height: 800px;
 }
-.ajuste-caja-help{
+.ajuste-caja-help h4{
 	padding-top: 75px;
-	padding-left: 10px;
 }
 .ajuste-caja-help h4, .ajuste-caja-help h2, .ajuste-caja-help p{
 	color: white;
 }
 /****FIFTH SECTION****/
 .fifth-section{
-	background-color: #FFFFFF;
-	height: 500px;
+	color: #41521F;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
 }
 .titulo-fifth{
 	padding-top: 60px;
@@ -126,20 +126,13 @@ body{
 .ajustes-cajas-heart p, .ajustes-cajas-globe p, .ajustes-cajas-paw p{
 	color: grey;
 }
-.ajustes-cajas-heart{
-	padding-left: 150px;
-}
 .ajustes-cajas-globe{
 	padding-left: 65px;
 	padding-right: 65px;
 }
-.ajustes-cajas-paw{
-	padding-right: 150px;
-}
 /****SIXTH SECTION****/
 .sixth-section{
 	background-color: #A89F68;
-	height: 600px;
 }
 .titulo-sixth{
 	padding-top: 60px;
@@ -151,15 +144,12 @@ body{
 .ajuste-caja-its{
 	padding-top: 25px;
 }
-.personal{
-	padding-left: 180px;
-}
 .group{
 	padding-left: 50px;
 	padding-right: 50px;
 }
-.companies{
-	padding-right: 180px;
+.personal, .group, .companies{
+	padding-bottom: 15px;
 }
 .personal h5, .group h5, .companies h5{
 	color: #333333;
@@ -179,11 +169,6 @@ body{
 /****FOOTER****/
 footer{
 	background-color: #41521F;
-	height: 340px;
-}
-.caja-foo-about{
-	padding-left: 150px;
-	padding-top: 65px;
 }
 .caja-foo-about h3, #enlace-foo{
 	color: #A59F68;
